@@ -7,7 +7,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 const token = process.env.DISCORD_TOKEN;
 const roleToTrack = 'referent';
 const notificationRole = 'coordo_acceuil';
-const channelToTrack = 'général';
+const channelToTrack = 'référents';
 
 let userMessageTracker = new Map();
 let messageData = []; // Store messages for PDF generation
